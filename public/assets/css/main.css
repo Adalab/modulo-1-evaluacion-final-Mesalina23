@@ -1,0 +1,40 @@
+/*// fonts
+$font-main: 'Roboto', sans-serif;
+
+// colors
+$color: #f3f4f5;
+$color-secondary: #999;*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+/*.link__adalab:hover {
+  background-color: #099d8d;
+  color: #fff;
+}
+
+.link__github:hover {
+  background-color: #CCC;
+  color: #000;
+}*/
+/*body*/
+.header__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 44px;
+  height: 44px;
+  background-color: #0271bc; }
+  .header__menu .header__menu--image {
+    width: 16px;
+    height: 14px; }
+
+/*no consigo dejar fijo el header__menu/tampoco que me aparezca el ico*/
+/*.main__list {
+  padding-left: 2rem;
+  padding-bottom: 20px;
+}*/
+
+/*# sourceMappingURL=main.css.map */

@@ -249,38 +249,33 @@ table {
     height: 11.7px; }
 
 .main__reasons {
-  height: 624px;
   width: 100%;
   background-color: #eff9ff;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto;
   justify-items: center;
+  text-align: center;
   color: #000000;
   font-family: "Roboto Slab", sans-serif;
   line-height: 30px; }
 
 .main__reasons--tittle {
   margin-top: 30px;
-  /*width: 290px;*/
-  height: 30px;
   size: 24px;
   font-weight: 700;
-  text-transform: capitalize;
-  margin-left: 15px; }
+  text-transform: capitalize; }
 
 .main__reasons--article {
-  /*width: 180px;*/
   margin-top: 45px;
   size: 18px; }
-  .main__reasons--article h4 {
+  .main__reasons--article .main__reasons--subtittle {
     height: 30px;
-    font-weight: 700;
-    margin-left: 68px; }
-  .main__reasons--article p {
+    font-weight: 700; }
+  .main__reasons--article .main__reasons--paragraph {
     height: 63px;
     font-family: "Roboto", sans-serif;
-    font-weight: 400; }
+    font-weight: 400;
+    width: 10em; }
 
 .main__reasons--buttom {
   width: 184px;
@@ -295,6 +290,8 @@ table {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 60px;
+  margin-top: 45px;
   transition: border; }
   .main__reasons--buttom:hover {
     border: dotted 6px #b0ccf8; }

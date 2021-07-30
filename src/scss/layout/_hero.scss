@@ -21,7 +21,7 @@
   text-transform: uppercase;
   text-align: center;
   font-family: $font-main;
-  font-weight: 600;
+  font-weight: 700;
   margin-top: 284px;
 }
 .hero__paragraph {
@@ -29,7 +29,8 @@
   height: 15px;
   height: 21px;
   margin-top: 10px;
-  font-family: $font-main;
+  font-family: $font-second;
+  font-weight: 400;
 }
 .hero__buttom {
   border-radius: 50%;

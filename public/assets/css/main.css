@@ -338,6 +338,13 @@ table {
     line-height: 30px;
     color: #8ccbea;
     text-transform: capitalize; }
+    @media all and (min-width: 768px) {
+      .main__looking .main__looking--subtittle {
+        margin-left: 39px; } }
+    @media all and (min-width: 1200px) {
+      .main__looking .main__looking--subtittle {
+        margin-left: 275px;
+        font-size: 16px; } }
   .main__looking .main__looking--tittle {
     margin-left: 15px;
     margin-top: 1px;
@@ -348,17 +355,31 @@ table {
     line-height: 30px;
     color: #000000;
     text-transform: capitalize; }
+    @media all and (min-width: 768px) {
+      .main__looking .main__looking--tittle {
+        margin-left: 39px;
+        font-size: 26px; } }
+    @media all and (min-width: 1200px) {
+      .main__looking .main__looking--tittle {
+        margin-left: 275px;
+        font-size: 32px; } }
   .main__looking .main__looking--paragraph {
     margin-left: 15px;
     margin-top: 15px;
-    height: 120px;
+    height: 60px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     line-height: 30px;
     color: #4a4a4a; }
+    @media all and (min-width: 768px) {
+      .main__looking .main__looking--paragraph {
+        margin: 0px 39px;
+        font-size: 20px; } }
+    @media all and (min-width: 1200px) {
+      .main__looking .main__looking--paragraph {
+        margin: 0px 275px; } }
   .main__looking .main__looking--buttom {
-    margin-left: 15px;
-    margin-top: 30px;
+    margin: 45px 0px 45px 15px;
     width: 76px;
     height: 45px;
     color: #f26002;
@@ -370,6 +391,14 @@ table {
     transition: backgroung-color 1s; }
     .main__looking .main__looking--buttom:hover {
       background-color: #b0ccf8; }
+    @media all and (min-width: 768px) {
+      .main__looking .main__looking--buttom {
+        margin-left: 39px;
+        margin-bottom: 60px; } }
+    @media all and (min-width: 1200px) {
+      .main__looking .main__looking--buttom {
+        margin-left: 275px;
+        margin-bottom: 60px; } }
 
 /*.main__list {
   padding-left: 2rem;

@@ -3,9 +3,12 @@
   height: 100vh;
   background-image: url("../images/cover.jpg");
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   color: #ffffff;
   overflow: hidden;
@@ -13,7 +16,7 @@
   @media all and (min-width: 768px) {
     position: initial;
   }
-  @media all and (min-width1200px) {
+  @media all and (min-width: 1200px) {
     position: initial;
   }
 }
@@ -31,12 +34,9 @@
     font-size: 80px;
     line-height: 106px;
     margin-top: 384px;
-    height: 212px;
   }
   @media all and (min-width: 1200px) {
     font-size: 100px;
-    margin-top: 384;
-    line-height: 132px;
   }
 }
 .hero__paragraph {
@@ -49,7 +49,7 @@
     margin-top: 20px;
   }
   @media all and (min-width: 1200px) {
-    margin-top: 40px;
+    margin-top: 1px;
   }
 }
 .hero__buttom {
@@ -68,8 +68,9 @@
   }
   @media all and (min-width: 768px) {
     margin-top: 30px;
+    margin-bottom: 45px;
   }
   @media all and (min-width: 1200px) {
-    margin-top: 30px;
+    margin-bottom: 13px;
   }
 }

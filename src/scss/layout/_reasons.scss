@@ -8,26 +8,44 @@
   color: $color-main;
   font-family: $font-main;
   line-height: 30px;
+  @media all and (min-width: 768px) {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "tittle tittle tittle" "article article article" "buttom buttom buttom";
+  }
 }
 .main__reasons--tittle {
   margin-top: 30px;
-  size: 24px;
+  font-size: 24px;
   font-weight: 700;
   text-transform: capitalize;
+  @media all and (min-width: 768px) {
+    font-size: 26px;
+    line-height: 45px;
+    grid-area: tittle;
+  }
+  @media all and (min-width: 1200px) {
+    font-size: 32px;
+  }
 }
 .main__reasons--article {
   margin-top: 45px;
-  size: 18px;
+  font-size: 18px;
 
   .main__reasons--subtittle {
     height: 30px;
     font-weight: 700;
+    @media all and (min-width: 768px) {
+      font-size: 24px;
+    }
   }
   .main__reasons--paragraph {
     height: 63px;
     font-family: $font-second;
     font-weight: 400;
     width: 10em;
+    @media all and (min-width: 768px) {
+      font-size: 20px;
+    }
   }
 }
 .main__reasons--buttom {
@@ -48,5 +66,8 @@
   transition: border;
   &:hover {
     border: dotted 6px #b0ccf8;
+  }
+  @media all and (min-width: 768px) {
+    grid-area: buttom;
   }
 }

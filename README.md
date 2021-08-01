@@ -13,7 +13,10 @@ La página web está formada por:
 - Dos secciones de información.
 - Footer: donde podemos encontrar diferentes enlaces de interés y redes sociales.
 
-Si desea clonar el repositorio, ha de ejecutar los siguientes comandos en la terminal de su dispositivo:
+La previsualización de la página web está disponible a la derecha, en la opción About.
+En la pestaña "Code" se encuentra disponible la dirección para clonarse el repositorio o bien para su descarga.
+
+Si desea trabajar con el repositorio, a de ejecutar los siguientes comandos en la terminal de su dispositivo:
 
 - npm install
 - npm start

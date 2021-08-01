@@ -5,25 +5,24 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
   color: #ffffff;
-  overflow: hidden;
-  box-sizing: border-box;
-  @media all and (min-width: 768px) {
+
+  /*@media all and (min-width: 768px) {
     position: initial;
   }
   @media all and (min-width: 1200px) {
     position: initial;
-  }
+  }*/
 }
 
 .hero__tittle {
   font-size: 42px;
   line-height: 55px;
-  width: 7em;
+  width: 10em;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -54,9 +53,7 @@
   border-radius: 50%;
   height: 45px;
   width: 45px;
-  /*margin-bottom: 53px;*/
-  margin-top: 45px;
-  transform: translateY();
+  margin-bottom: 53px;
   background-color: #ffffff;
   display: flex;
   justify-content: center;

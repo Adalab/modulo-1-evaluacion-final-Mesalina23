@@ -156,6 +156,30 @@ table {
       flex-direction: row;
       justify-content: space-between; } }
 
+@-webkit-keyframes rotate {
+  from {
+    transform: rotateZ(0); }
+  25% {
+    transform: rotateZ(90deg); }
+  50% {
+    transform: rotateZ(180deg); }
+  75% {
+    transform: rotateZ 260deg; }
+  to {
+    transform: rotateZ(360deg); } }
+
+@keyframes rotate {
+  from {
+    transform: rotateZ(0); }
+  25% {
+    transform: rotateZ(90deg); }
+  50% {
+    transform: rotateZ(180deg); }
+  75% {
+    transform: rotateZ 260deg; }
+  to {
+    transform: rotateZ(360deg); } }
+
 .footer__buttom {
   border-radius: 50%;
   height: 45px;
@@ -166,7 +190,9 @@ table {
   justify-content: center;
   align-items: center;
   position: absolute;
-  bottom: 94%; }
+  bottom: 94%;
+  -webkit-animation: rotate 4s infinite;
+  animation: rotate 4s infinite; }
   @media all and (min-width: 768px) {
     .footer__buttom {
       bottom: 91%;

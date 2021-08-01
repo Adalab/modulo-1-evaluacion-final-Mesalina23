@@ -14,6 +14,24 @@
     justify-content: space-between;
   }
 }
+@keyframes rotate {
+  from {
+    transform: rotateZ(0);
+  }
+  25% {
+    transform: rotateZ(90deg);
+  }
+  50% {
+    transform: rotateZ(180deg);
+  }
+  75% {
+    transform: rotateZ (260deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
 .footer__buttom {
   border-radius: 50%;
   height: 45px;
@@ -25,6 +43,7 @@
   align-items: center;
   position: absolute;
   bottom: 94%;
+  animation: rotate 4s infinite;
   @media all and (min-width: 768px) {
     bottom: 91%;
     left: 47.5%;

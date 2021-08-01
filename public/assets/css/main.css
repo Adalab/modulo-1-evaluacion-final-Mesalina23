@@ -260,7 +260,6 @@ table {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   color: #ffffff;
   overflow: hidden;
@@ -275,54 +274,54 @@ table {
 .hero__tittle {
   font-size: 42px;
   line-height: 55px;
-  width: 8em;
+  width: 7em;
   text-transform: uppercase;
   text-align: center;
-  font-family: "Roboto Slab", sans-serif;
   font-weight: 700;
-  margin-top: 284px; }
-  @media all and (min-width: 768px) {
-    .hero__tittle {
-      font-size: 80px;
-      line-height: 106px;
-      margin-top: 384px; } }
+  margin-top: 284px;
+  /*@media all and (min-width: 768px) {
+    font-size: 80px;
+    line-height: 106px;
+    margin-top: 384px;
+  }
   @media all and (min-width: 1200px) {
-    .hero__tittle {
-      font-size: 100px; } }
+    font-size: 100px;
+  }*/ }
 
 .hero__paragraph {
   font-size: 16px;
   margin-top: 10px;
   font-family: "Roboto", sans-serif;
-  font-weight: 400; }
-  @media all and (min-width: 768px) {
-    .hero__paragraph {
-      font-size: 24px;
-      margin-top: 20px; } }
+  font-weight: 400;
+  /*@media all and (min-width: 768px) {
+    font-size: 24px;
+    margin-top: 20px;
+  }
   @media all and (min-width: 1200px) {
-    .hero__paragraph {
-      margin-top: 1px; } }
+    margin-top: 1px;
+  }*/ }
 
 .hero__buttom {
   border-radius: 50%;
   height: 45px;
   width: 45px;
+  /*margin-bottom: 53px;*/
   margin-top: 45px;
   transform: translateY();
   background-color: #ffffff;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  /*@media all and (min-width: 768px) {
+    margin-top: 30px;
+    margin-bottom: 45px;
+  }
+  @media all and (min-width: 1200px) {
+    margin-bottom: 13px;
+  }*/ }
   .hero__buttom .hero__buttom--image {
     width: 20px;
     height: 11.7px; }
-  @media all and (min-width: 768px) {
-    .hero__buttom {
-      margin-top: 30px;
-      margin-bottom: 45px; } }
-  @media all and (min-width: 1200px) {
-    .hero__buttom {
-      margin-bottom: 13px; } }
 
 .main__reasons {
   width: 100%;
@@ -470,5 +469,11 @@ table {
       .main__looking .main__looking--buttom {
         margin-left: 275px;
         margin-bottom: 60px; } }
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Roboto Slab", sans-serif; }
 
 /*# sourceMappingURL=main.css.map */

@@ -474,4 +474,23 @@ body {
   -webkit-margin-before: 0em;
   margin-block-start: 0em; }
 
+.main__offer {
+  display: none; }
+
+@media all and (min-width: 768px) {
+  .main__offer {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*grid-template-rows: 1fr 1fr;*/
+    grid-template-areas: "title title" "subtitle paragraph"; }
+  .offer__title {
+    background-color: aqua;
+    grid-area: title; }
+  .offer__subtitle {
+    background-color: blueviolet;
+    grid-area: subtitle; }
+  .offer__paragraph {
+    grid-area: paragraph; } }
+
 /*# sourceMappingURL=main.css.map */

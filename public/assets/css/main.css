@@ -248,7 +248,8 @@ table {
   padding-top: 14px; }
 
 .fa-heart {
-  color: #f26002; }
+  color: #f26002;
+  height: 16px; }
 
 .hero {
   width: 100%;
@@ -261,13 +262,8 @@ table {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   color: #ffffff; }
-  @media all and (min-width: 768px) {
-    .hero {
-      position: initial; } }
-  @media all and (min-width: 1200px) {
-    .hero {
-      position: initial; } }
 
 .hero__tittle {
   font-size: 42px;
@@ -276,28 +272,27 @@ table {
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
-  margin-top: 284px;
-  /*@media all and (min-width: 768px) {
-    font-size: 80px;
-    line-height: 106px;
-    margin-top: 384px;
-  }
+  margin-top: 284px; }
+  @media all and (min-width: 768px) {
+    .hero__tittle {
+      font-size: 80px;
+      line-height: 106px; } }
   @media all and (min-width: 1200px) {
-    font-size: 100px;
-  }*/ }
+    .hero__tittle {
+      font-size: 100px; } }
 
 .hero__paragraph {
   font-size: 16px;
   margin-top: 10px;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  /*@media all and (min-width: 768px) {
-    font-size: 24px;
-    margin-top: 20px;
-  }
+  font-weight: 400; }
+  @media all and (min-width: 768px) {
+    .hero__paragraph {
+      font-size: 24px;
+      margin-top: 20px; } }
   @media all and (min-width: 1200px) {
-    margin-top: 1px;
-  }*/ }
+    .hero__paragraph {
+      margin-top: 0px; } }
 
 .hero__buttom {
   border-radius: 50%;
@@ -307,17 +302,17 @@ table {
   background-color: #ffffff;
   display: flex;
   justify-content: center;
-  align-items: center;
-  /*@media all and (min-width: 768px) {
-    margin-top: 30px;
-    margin-bottom: 45px;
-  }
-  @media all and (min-width: 1200px) {
-    margin-bottom: 13px;
-  }*/ }
+  align-items: center; }
   .hero__buttom .hero__buttom--image {
     width: 20px;
     height: 11.7px; }
+  @media all and (min-width: 768px) {
+    .hero__buttom {
+      margin-top: 30px;
+      margin-bottom: 45px; } }
+  @media all and (min-width: 1200px) {
+    .hero__buttom {
+      margin-bottom: 13px; } }
 
 .main__reasons {
   width: 100%;
